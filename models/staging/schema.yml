@@ -6,10 +6,9 @@ sources:
       schema: trips_data_all
 
       tables:
-        - name: green_tripdata
-        - name: yellow_tripdata
-       
-
+        - name: external_csv_green_tripdata
+        - name: external_csv_yellow_tripdata
+          
 models:
     - name: stg_green_tripdata
       description: >
